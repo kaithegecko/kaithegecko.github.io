@@ -27,6 +27,18 @@ body {
   background: #3D3D3D;
 }
 
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+
 .centered {
   position: absolute;
   top: 50%;
