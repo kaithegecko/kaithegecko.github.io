@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  background-color: #000000;
+  background: #000000;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: #000000;
+}
+
+.container2{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: #3D3D3D;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.jumbotron{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: #000000;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("404BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.btn-purple {
+  border-color: #8366B0;
+  background-color: #8366B0;
+  color: white;
+  margin: 1rem;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #594781;
+  background-color: #594781;
+  color: white;
+}
+
+.btn-black {
+  border-color: white;
+  background-color: white;
+  color: black;
+  margin: 1rem;
+}
+.btn-black:hover,
+.btn-black:focus {
+  border-color: #3D3D3D;
+  background-color: #3D3D3D;
+  color: white;
+}
+
+
+.feature img {
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #000000;
+  background-size: cover;
+  color: white;
+}
+footer .row {
+  padding: 1.5rem 0 4rem;
+  line-height: 2rem;
+}
+footer img {
+  margin: 1.5rem 0;
+}
+footer h3 {
+  margin: 1.5rem 0;
+}
+
+.scrollbar-rare-wind::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-rare-wind::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-rare-wind::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
+background-image: -webkit-linear-gradient(bottom, #a8edea 0%, #fed6e3 100%);
+background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); }
+
+.scrollbar-rare-wind {
+scrollbar-color: #a8edea #F5F5F5;
+}
+
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
